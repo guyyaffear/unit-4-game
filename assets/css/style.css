@@ -1,0 +1,183 @@
+body{
+    background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container{
+	width: 960px;
+}
+.chooseCharBox{
+	width: 570px;
+	height: 150px;
+    margin: 10px 0 0 10px;
+    
+}
+.chooseCharBox img{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    
+}
+.chooseCharBox p,
+h3
+{
+	text-align: center;
+}
+.chooseCharBox p1{
+	font-size: 30px;
+}
+.char1{
+	margin: 0px;
+	width: 130px;
+	height: 100%;
+	border: 2px solid green;
+    float: left;
+    background-color:white;
+}
+.char2
+{
+	margin: 0px;
+	width: 130px;
+	height: 100%;
+	border: 2px solid green;
+    float: left;
+    background-color:white;
+}
+
+.char3{
+	margin: 0px;
+	width: 130px;
+	height: 100%;
+	border: 2px solid green;
+    float: left;
+    background-color:white;
+}
+.char4
+{
+	margin: 0px;
+	width: 130px;
+	height: 100%;
+	border: 2px solid green;
+    float: left;
+    background-color:white;
+}
+.char4 .starImage {
+    margin-top: 0px;
+}
+.enemiesBox{
+	width: 700px;
+	height: 200px;
+	margin-left: 10px;
+}
+.attackBtn{
+	margin-left: 10px;
+}
+.resetBtn{
+	margin-left: 10px;
+}
+.fightBox p{
+	font-size: 30px;
+	margin-left: 10px;
+}
+.defenderBox{
+	width: 700px;
+	height: 200px;
+	margin-left: 10px;
+}
+.defenderBox p {
+	margin-left: 10px;
+}
+p2{
+	text-align: center;
+}
+/* body {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+#RPG {
+	font-size: 54px;
+	font-family: 'Lekton', sans-serif;
+}
+
+.oneRow{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	box-sizing: border-box;
+	outline-style: solid;
+	outline-color: limegreen;
+	outline-width: 3px;
+	align-items: center;
+	background-color: white;
+}
+
+.name, .HP {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Lekton', sans-serif;
+	margin-bottom: 0px;
+
+}
+
+#img1, #imagel, #imageds, #imagedm {
+	width: 96%;
+	height: 65%;
+		
+}
+
+.col-12 {
+
+	font-size: 15px;
+	font-family: 'Lekton', sans-serif;
+
+}
+
+.padLeft {
+	padding-left: 20px;
+	padding-top: 3px;
+
+
+}
+
+#picRow {
+	width: 59%;
+
+}
+
+#enemies0, #enemies1, #enemies2, #enemies3 {
+	float: left;
+
+}
+
+.move {
+	float: left;
+}
+
+.float {
+	float: left;
+} */
+/* .charSection{
+    width: 570px;
+    height: 150px;
+    margin:60px 0 0 10px;
+    background-color: green ;
+}
+.enemieSection{
+    width: 570px;
+    height: 150px;
+    margin:60px 0 0 10px;
+    background-color: green ;
+}
+.fightSection{
+    width: 570px;
+    height: 150px;
+    margin:60px 0 0 10px;
+    background-color: green;
+} */
