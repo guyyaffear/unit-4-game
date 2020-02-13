@@ -110,7 +110,7 @@ $(document).ready(function(){
                                 'margin-right': 'auto',
                                 'display': 'block'});
         }
-        else if(char1Count === false && sidCount === 0)
+        else if(char1Count === false && sidCount === 0 )
         {
             //Enables attack button after defender is selected
             disableBtn = false;
@@ -197,10 +197,11 @@ $(document).ready(function(){
             //Updates the main Characters attack 
             var attackMain1 = $('.main').attr('attack',attackMain);
             //Prents the attack button from being clicked after the game is over
-                if(healthMainAfter <= 0)
+                if(healthMainAfter < 0)
                 {
                     $('.defender').html('<p>' + 'You have been defeated..Game Over!!!' + ' </p>').css({'font-size': '20px','color': "white"});
                     $('.main').remove();
+                    $('.attackBtn').remove();
                     this.disabled = true;
                     
                 }
@@ -215,6 +216,7 @@ $(document).ready(function(){
                         lukeCount--;
                         //Remove the the defender
                         $('.def').remove();
+                        $('.attackBtn').remove();
                         $('.defender').html('<p>' + 'You have defeated ' + charName +
                                              ' choose to fight another enemy.' + '</p>').css({'font-size': '20px','color': "white"});
                         countDefeated++;
@@ -228,6 +230,7 @@ $(document).ready(function(){
                         obiCount--;
                         //Remove the the defender
                         $('.def').remove();
+                        $('.attackBtn').remove();
                         $('.defender').html('<p>' + 'You have defeated ' + charName +
                                              ' choose to fight another enemy.' + '</p>').css({'font-size': '20px','color': "white"});
                         countDefeated++;
@@ -241,6 +244,7 @@ $(document).ready(function(){
                         obiCount--;
                         //Remove the the defender
                         $('.def').remove();
+                        $('.attackBtn').remove();
                         $('.defender').html('<p>' + 'You have defeated ' + charName +
                                              ' choose to fight another enemy.' + '</p>').css({'font-size': '20px','color': "white"});
                         countDefeated++;
@@ -254,6 +258,7 @@ $(document).ready(function(){
                         sidCount--;
                         //Remove the the defender
                         $('.def').remove();
+                        $('.attackBtn').remove();
                         $('.defender').html('<p>' + 'You have defeated ' + charName +
                                              ' choose to fight another enemy.' + '</p>').css({'font-size': '20px' ,'color': "white"});
                         countDefeated++;
